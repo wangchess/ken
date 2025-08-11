@@ -41,6 +41,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     TOOLCHAIN_DIR=/root/toolchain \
     OUTPUT_DIR=/root/output \
     TMP_DIR=/root/output/tmp 
+RUN apt-get install wget
     
 # 安装基础依赖
 RUN apt-get update && apt-get install -y \
