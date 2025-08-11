@@ -7,7 +7,7 @@ KERNEL_SOURCE=https://github.com/MiCode/Xiaomi_Kernel_OpenSource/
 #分支
 KERNEL_BRANCH=liuqin-t-oss
 #内核配置文件
-KERNEL_CONFIG=chiron_defconfig
+KERNEL_CONFIG=gki_defconfig
 #架构
 ARCH=arm64
 
