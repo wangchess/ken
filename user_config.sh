@@ -3,16 +3,16 @@
 UBUNTU_VERSION=22.04
 
 #内核源码
-KERNEL_SOURCE=https://github.com/LineageOS/android_kernel_xiaomi_msm8998
+KERNEL_SOURCE=https://github.com/MiCode/Xiaomi_Kernel_OpenSource/
 #分支
-KERNEL_BRANCH=lineage-22.2
+KERNEL_BRANCH=liuqin-t-oss
 #内核配置文件
 KERNEL_CONFIG=chiron_defconfig
 #架构
 ARCH=arm64
 
 #KernelSU可选的值 kernelsu kernelsu-next suki-su
-KERNEL_SU=kernelsu-next
+KERNEL_SU=kernelsu
 
 
 #启用LXC-Docker支持
